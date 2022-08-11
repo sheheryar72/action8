@@ -1,6 +1,6 @@
 name: push github code to s3 bucket
 on: push
-job:
+jobs:
  echo-job:
   runs-on: ubuntu-latest
   steps:
